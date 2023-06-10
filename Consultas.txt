@@ -1,0 +1,103 @@
+
+\CONNECT http://saed:031099@127.0.0.1:8091;
+
+SELECT * FROM `DataSet`.Peliculas.PeliculaCollection a WHERE a.runtimeMinutes = "118"
+SELECT * FROM `DataSet`.Peliculas.PeliculaCollection a WHERE a.runtimeMinutes = "45"
+SELECT * FROM `DataSet`.Peliculas.PeliculaCollection a WHERE a.startYear > "2013" OR a.startYear = "/N"
+SELECT * FROM `DataSet`.Peliculas.PeliculaCollection a WHERE a.startYear < "1941" AND a.startYear != "/N"
+SELECT * FROM `DataSet`.Peliculas.PeliculaCollection a WHERE a.startYear < "2002" AND a.startYear != "/N" AND a.titleType = "movie"
+SELECT * FROM `DataSet`.Peliculas.PeliculaCollection a WHERE a.startYear < "1986" AND a.startYear != "/N"
+SELECT * FROM `DataSet`.Peliculas.PeliculaCollection a WHERE a.startYear < "1998" AND a.startYear != "/N" OR a.runtimeMinutes = "30"
+SELECT * FROM `DataSet`.Peliculas.PeliculaCollection a WHERE a.startYear < "2004" AND a.startYear != "/N" OR a.titleType = "movie"
+
+
+CREATE INDEX `index5` ON `DataSet`.RutaAviones.RutaCollection (`AirTime`);
+
+
+SELECT * FROM `DataSet`.RutaAviones.RutaCollection a WHERE a.TaxiIn = "27"
+SELECT * FROM `DataSet`.RutaAviones.RutaCollection a WHERE a.AirTime = "63"
+SELECT * FROM `DataSet`.RutaAviones.RutaCollection a WHERE a.TaxiOut = "2" OR a.TaxiIn = "9"
+SELECT * FROM `DataSet`.RutaAviones.RutaCollection a WHERE a.TaxiIn = "2" OR a.TaxiIn = "9"
+SELECT * FROM `DataSet`.RutaAviones.RutaCollection a WHERE a.TaxiIn = "3" OR a.TaxiIn = "8"
+SELECT * FROM `DataSet`.RutaAviones.RutaCollection a WHERE a.AirTime < "30"
+SELECT * FROM `DataSet`.RutaAviones.RutaCollection a WHERE a.TaxiIn < "30" or a.DayOfWeek < "3"
+SELECT * FROM `DataSet`.RutaAviones.RutaCollection a WHERE a.TaxiIn != "3" and a.TaxiIn != "6"
+
+
+SELECT * FROM `DataSet`.Denue.DenueCollection a WHERE a.ageb > "996"
+SELECT * FROM `DataSet`.Denue.DenueCollection a WHERE a.nom_vial = "NINGUNO"
+SELECT * FROM `DataSet`.Denue.DenueCollection a WHERE a.ageb > "797"
+SELECT * FROM `DataSet`.Denue.DenueCollection a WHERE a.ageb > "644"
+SELECT * FROM `DataSet`.Denue.DenueCollection a WHERE a.ageb > "362"
+SELECT * FROM `DataSet`.Denue.DenueCollection a WHERE a.ageb > "202"
+
+
+
+
+
+SELECT * FROM c WHERE c.runtimeMinutes = "118"
+SELECT * FROM c WHERE c.runtimeMinutes = "45"
+SELECT * FROM c WHERE c.startYear > "2013" or c.startYear = "/N"
+SELECT * FROM c WHERE c.startYear < "1941" and c.startYear != "/N"
+SELECT * FROM c WHERE c.startYear < "2002" and c.startYear != "/N" and c.titleType = "movie"
+SELECT * FROM c WHERE c.startYear < "1986" and c.startYear != "/N"
+SELECT * FROM c WHERE c.startYear < "1998" and c.startYear != "/N" or c.runtimeMinutes = "30"
+SELECT * FROM c WHERE c.startYear < "2004" AND c.startYear != "/N" OR c.titleType = "movie"
+
+SELECT * FROM c WHERE c.TaxiIn = "27"
+SELECT * FROM c WHERE c.AirTime = "63"
+SELECT * FROM c WHERE c.TaxiOut = "2" OR c.TaxiIn = "9"
+SELECT * FROM c WHERE c.TaxiIn = "2" OR c.TaxiIn = "9"
+SELECT * FROM c WHERE c.TaxiIn = "3" OR c.TaxiIn = "8"
+SELECT * FROM c WHERE c.AirTime < "30"
+SELECT * FROM c WHERE c.TaxiIn < "30" or c.DayOfWeek < "3"
+SELECT * FROM c WHERE c.TaxiIn != "3" and c.TaxiIn != "6"
+
+SELECT * FROM c WHERE c.ageb > "996"
+SELECT * FROM c WHERE c.nom_vial = "NINGUNO"
+SELECT * FROM c WHERE c.ageb > "797"
+SELECT * FROM c WHERE c.ageb > "644"
+SELECT * FROM c WHERE c.ageb > "362"
+SELECT * FROM c WHERE c.ageb > "202"
+
+limpiar cache------------------------
+db.RutasAviones.getPlanCache().clear()
+
+use DataSets
+
+db.Peliculas.find({runtimeMinutes:"118"}).explain("executionStats")
+db.Peliculas.find({runtimeMinutes:"45"}).explain("executionStats")
+db.Peliculas.find({startYear:{$gt:"2013"}}).explain("executionStats")
+db.Peliculas.find({startYear:{$lt:"1941"}}).explain("executionStats")
+db.Peliculas.find({startYear:{ $lt: "2002" }, $or:[{titleType:"movie"}]}).explain("executionStats")
+db.Peliculas.find({startYear:{ $lt: "1986" } }).explain("executionStats")
+db.Peliculas.find({ $or:[{startYear:{$lt:"1998"}},{runtimeMinutes:"30"}]}).explain("executionStats")
+db.Peliculas.find({ $or:[{startYear:{$lt:"2004"}},{titleType:"movie"}]}).explain("executionStats")
+
+db.RutasAviones.find({TaxiIn:"27"}).explain("executionStats")
+db.RutasAviones.find({AirTime:"63"}).explain("executionStats")
+db.RutasAviones.find({$or:[{TaxiOut:"2"},{TaxiIn:"9"}]}).explain("executionStats")
+db.RutasAviones.find({$or:[{TaxiIn:"2"},{TaxiIn:"9"}]}).explain("executionStats")
+db.RutasAviones.find({$or:[{TaxiIn:"3"},{TaxiIn:"8"}]}).explain("executionStats")
+db.RutasAviones.find({AirTime:{$lt:"30"}}).explain("executionStats")
+db.RutasAviones.find({$or:[{TaxiIn:{$lt:"4"}},{DayOfWeek:{$lt:"3"}}]}).explain("executionStats")
+db.RutasAviones.find({TaxiIn:{$ne:"3"},$or:[{TaxiIn:{$ne:"6"}}]}).explain("executionStats")
+
+db.Denue.find({ageb:{$gt:"996"}}).explain("executionStats")
+db.Denue.find({nom_vial: "NINGUNO"}).explain("executionStats")
+db.Denue.find({ageb:{$gt:"797"}}).explain("executionStats")
+db.Denue.find({ageb:{$gt:"644"}}).explain("executionStats")
+
+db.Denue.find({ageb:{$gt:"202"}}).explain("executionStats")
+
+\CONNECT http://saed:031099@127.0.0.1:8091;
+-couchbase http://saed:031099@127.0.0.1:8091/
+-u saed -p 031099 -e "http://localhost:8091" \
+--script= SELECT * FROM `DataSet`.Peliculas.PeliculaCollection a WHERE a.runtimeMinutes = "118"
+
+CREATE PRIMARY INDEX runtimeMinutes ON `DataSet`.Peliculas.PeliculaCollection;
+
+
+ hacer la consulta sin la coma
+
+

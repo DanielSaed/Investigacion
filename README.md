@@ -2,6 +2,8 @@
 
 Desarrollar y utilizar las nuevas aplicaciones de la actualidad ha creado nuevas necesidades en la arquitectura de las bases de datos NoSQL, estas tienen que ser cada vez más ágiles, también requieren un desarrollo cada vez más enfocado a los datos en tiempo real, al igual que cada vez es más necesario que esta tecnología pueda procesar cómodamente impredecibles niveles de escala, velocidad y variabilidad de datos, agregando a todo esto la necesidad de las empresas y organizaciones de innovar rápidamente, operar a cualquier escala, además de cumplir la demanda principal que es la experiencia de usuario.
 
+<br>
+
 ## Bases de datos NoSql utilizadas
 
 - MongoDB
@@ -16,11 +18,15 @@ Las pruebas se hicieron mediante la interfaz de cada base de datos.
 - En Azure CosmosDB: Azure Cosmos DB Emulator
 - Couchbase: Dashboard de Couchbase Community Server.
 
+<br>
+
 ## Características Computador:
 
 ●	Procesador: Ryzen 7 5800H
 ●	Ram: 16GB DDR4 3200Mhz
 ●	Almacenamiento: 512 GB SSD 3000 mb\s
+
+<br>
 
 ## Datasets utilizados:
 

@@ -68,18 +68,21 @@ La prueba se realizó de manera local, se utilizaron 2 métodos para hacer las p
 
 ### Resultados Dataset Ruta Aviones 
 
-<p float="left"  align="middle">
-  <img src="https://github.com/DanielSaed/Investigacion/blob/main/img-github/Aviones.png" width="500" heigh="500"/>
-  <img src="https://github.com/DanielSaed/Investigacion/blob/main/img-github/AvionesFrio.png" width="500" heigh="500" /> 
-</p>
-
+<table align="middle">
+  <tr>
+    <td><img src="https://github.com/DanielSaed/Investigacion/blob/main/img-github/Aviones.png" width=500 height=480></td>
+    <td><img src="https://github.com/DanielSaed/Investigacion/blob/main/img-github/AvionesFrio.png" width=500 height=480></td>
+  </tr>
+ </table>
 
 ### Resultados Dataset Denue 
 
-<p float="left"  align="middle">
-  <img src="https://github.com/DanielSaed/Investigacion/blob/main/img-github/Denue.png" width="500" heigh="500"/>
-  <img src="https://github.com/DanielSaed/Investigacion/blob/main/img-github/DenueFrio.png" width="500" heigh="500"/> 
-</p>
+<table align="middle">
+  <tr>
+    <td><img src="https://github.com/DanielSaed/Investigacion/blob/main/img-github/Denue.png" width=500 height=480></td>
+    <td><img src="https://github.com/DanielSaed/Investigacion/blob/main/img-github/DenueFrio.png" width=500 height=480></td>
+  </tr>
+ </table>
 
 ## Conclusion
 

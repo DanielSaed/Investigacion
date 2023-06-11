@@ -10,7 +10,7 @@ import time
 start_time = time.time_ns()
 
 
-CONNECTION_STRING = "mongodb+srv://danielsaed99:031099@cluster0.k8ed7vw.mongodb.net/test"
+CONNECTION_STRING = ""
 client = MongoClient(CONNECTION_STRING)
 dbname = client['checobot']
 collection_name = dbname["fechas"]

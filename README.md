@@ -22,7 +22,17 @@ Las pruebas se hicieron mediante la interfaz de cada base de datos.
 ●	Ram: 16GB DDR4 3200Mhz
 ●	Almacenamiento: 512 GB SSD 3000 mb\s
 
+## Datasets utilizados:
+
+ <table align="middle">
+  <tr align="middle">
+    <td><img src="https://github.com/DanielSaed/Investigacion/blob/main/img-github/tabla.png" width=800 height=480 align="middle"></td>
+  </tr>
+ </table>
 ## Metodologia
+
+**Metodologia Seguida en la investigacion**
+
 <table align="middle">
   <tr>
     <td><img src="https://github.com/DanielSaed/Investigacion/blob/main/img-github/diagrama.png" width=750 height=450></td>
@@ -30,12 +40,6 @@ Las pruebas se hicieron mediante la interfaz de cada base de datos.
  </table>
  
  <br>
- 
- <table align="middle">
-  <tr align="middle">
-    <td><img src="https://github.com/DanielSaed/Investigacion/blob/main/img-github/tabla.png" width=800 height=480 align="middle"></td>
-  </tr>
- </table>
 
 Se optó por solamente utilizar consultas de lectura en las pruebas, Se repitió 3 veces la misma consulta y se tomó el promedio, se utilizaron 8 cantidades de resultados diferentes para las mediciones. El flujo de trabajo que se utilizó para los conjuntos de datos “Películas” y “Ruta Aviones” fue el siguiente:
 

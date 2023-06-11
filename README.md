@@ -58,10 +58,13 @@ La prueba se realizó de manera local, se utilizaron 2 métodos para hacer las p
 ## Resultados
 
 ### Resultados Dataset Peliculas 
-<p float="left"  align="middle">
-  <img src="https://github.com/DanielSaed/Investigacion/blob/main/img-github/pelicula.png" width="500" heigh="700" />
-  <img src="https://github.com/DanielSaed/Investigacion/blob/main/img-github/PeliculasFrio.png" width="500" heigh="700"/> 
-</p>
+
+<table>
+  <tr>
+    <td><img src="https://github.com/DanielSaed/Investigacion/blob/main/img-github/pelicula.png" width=270 height=480></td>
+    <td><img src="https://github.com/DanielSaed/Investigacion/blob/main/img-github/PeliculasFrio.png" width=270 height=480></td>
+  </tr>
+ </table>
 
 ### Resultados Dataset Ruta Aviones 
 

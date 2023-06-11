@@ -30,6 +30,8 @@ Las pruebas se hicieron mediante la interfaz de cada base de datos.
   </tr>
  </table>
  
+ <br>
+ 
 ## Metodologia
 
 **Metodologia Seguida en la investigacion**
@@ -76,6 +78,8 @@ Mientras que para el conjunto de datos **Denue** se utilizaron solamente 6 canti
 *Test en frío:*
 - Las consultas se realizaron apagando el ordenador cada vez que se realizaba una consulta.
 
+<br>
+
 ## Resultados
 
 ### Resultados Dataset Peliculas 
@@ -104,6 +108,8 @@ Mientras que para el conjunto de datos **Denue** se utilizaron solamente 6 canti
     <td><img src="https://github.com/DanielSaed/Investigacion/blob/main/img-github/DenueFrio.png" width=500 height=480></td>
   </tr>
  </table>
+
+<br>
 
 ## Conclusion
 

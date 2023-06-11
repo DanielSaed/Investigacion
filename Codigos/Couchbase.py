@@ -8,8 +8,8 @@ from couchbase.options import (ClusterOptions, ClusterTimeoutOptions,
                                QueryOptions)
 
 # Update this to your cluster
-username = "saed"
-password = "031099"
+username = ""
+password = ""
 bucket_name = "b1"
 cert_path = "path/to/certificate"
 # User Input ends here.

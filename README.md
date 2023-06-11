@@ -25,15 +25,15 @@ Las pruebas se hicieron mediante la interfaz de cada base de datos.
 ## Metodologia
 <table align="middle">
   <tr>
-    <td><img src="https://github.com/DanielSaed/Investigacion/blob/main/img-github/diagrama.png" width=700 height=480></td>
+    <td><img src="https://github.com/DanielSaed/Investigacion/blob/main/img-github/diagrama.png" width=600 height=600></td>
   </tr>
  </table>
  
  <br>
  
  <table align="middle">
-  <tr>
-    <td><img src="https://github.com/DanielSaed/Investigacion/blob/main/img-github/tabla.png" width=600 height=480></td>
+  <tr align="middle">
+    <td><img src="https://github.com/DanielSaed/Investigacion/blob/main/img-github/tabla.png" width=800 height=480 align="middle"></td>
   </tr>
  </table>
 

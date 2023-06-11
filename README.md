@@ -36,7 +36,7 @@ Las pruebas se hicieron mediante la interfaz de cada base de datos.
 
 <table align="middle">
   <tr>
-    <td><img src="https://github.com/DanielSaed/Investigacion/blob/main/img-github/diagrama.png" width=750 height=450></td>
+    <td><img src="https://github.com/DanielSaed/Investigacion/blob/main/img-github/diagrama.png" width=600 height=300></td>
   </tr>
  </table>
  

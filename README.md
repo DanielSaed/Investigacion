@@ -23,10 +23,20 @@ Las pruebas se hicieron mediante la interfaz de cada base de datos.
 ●	Almacenamiento: 512 GB SSD 3000 mb\s
 
 ## Metodologia
+<table align="middle">
+  <tr>
+    <td><img src="https://github.com/DanielSaed/Investigacion/blob/main/img-github/diagrama.png" width=700 height=480></td>
+  </tr>
+ </table>
+ 
+ <br>
+ 
+ <table align="middle">
+  <tr>
+    <td><img src="https://github.com/DanielSaed/Investigacion/blob/main/img-github/tabla.png" width=600 height=480></td>
+  </tr>
+ </table>
 
-![alt sss](https://github.com/DanielSaed/Investigacion/blob/main/img-github/diagrama.png)
-
-![alt sss](https://github.com/DanielSaed/Investigacion/blob/main/img-github/tabla.png)
 Se optó por solamente utilizar consultas de lectura en las pruebas, Se repitió 3 veces la misma consulta y se tomó el promedio, se utilizaron 8 cantidades de resultados diferentes para las mediciones. El flujo de trabajo que se utilizó para los conjuntos de datos “Películas” y “Ruta Aviones” fue el siguiente:
 
 1.	1,000 resultados

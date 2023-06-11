@@ -25,7 +25,7 @@ Las pruebas se hicieron mediante la interfaz de cada base de datos.
 ## Metodologia
 <table align="middle">
   <tr>
-    <td><img src="https://github.com/DanielSaed/Investigacion/blob/main/img-github/diagrama.png" width=700 height=500></td>
+    <td><img src="https://github.com/DanielSaed/Investigacion/blob/main/img-github/diagrama.png" width=750 height=450></td>
   </tr>
  </table>
  

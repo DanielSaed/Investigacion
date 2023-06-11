@@ -8,15 +8,13 @@ Desarrollar y utilizar las nuevas aplicaciones de la actualidad ha creado nuevas
 - Couchbase
 - Azure CosmoDB
 
-El patrones de arquitectura de datos NoSQL utilizado fue por documentos
-
-- Una base de datos orientada a documentos está diseñada para gestionar información orientada a documentos o datos semi-estructurados.  Este tipo de bases de datos constituye una de las principales categorías de las llamadas bases de datos NoSQL. 
+Todas la bases de datos anteriores utilizan el patron de arquitectura de datos por documentos.
 
 Las pruebas se hicieron mediante la interfaz de cada base de datos.
 
-- MongoDB: Las pruebas se realizaron en MongoDB Compass.
-- En Azure Cosmo DB: Se realizaron en Azure Cosmos DB Emulator
-- Couchbase: Se realizaron en el Dashboard de Couchbase Community Server.
+- MongoDB:  MongoDB Compass.
+- En Azure CosmosDB: Azure Cosmos DB Emulator
+- Couchbase: Dashboard de Couchbase Community Server.
 
 ## Características Computador:
 
@@ -48,7 +46,22 @@ Mientras que para el conjunto de datos “Denue” se utilizaron solamente 6 can
 
 La prueba se realizó de manera local, se utilizaron 2 métodos para hacer las pruebas de las bases de datos:
 
-*Test en caliente*
+**Test en caliente
 - Las consultas se realizaron de manera consecutiva.
-*Test en frío:* 
+- 
+**Test en frío: 
 - Las consultas se realizaron apagando el ordenador cada vez que se realizaba una consulta.
+
+## Resultados
+
+## Conclusion
+
+Al usar bases de datos NoSQL que usan el mismo tipo de dato se elimina una variable que podría afectar a un análisis de los resultados. Entendiendo el hecho que un mejor rendimiento no significa que una base de datos es mejor o peor. Todas las bases de datos testeadas no tuvieron algún problema mayor en todos los procesos (instalación, configuración, subida de datos, consultas) solamente Couchbase tuvo algunas complicaciones menores que tuvieron impacto en el tiempo de desarrollo de esta investigación, sin embargo, una vez que se familiarizo con esta base de datos no se tuvo problema alguno.
+
+La diferencia entre consultas de caliente y frio fueron significativas dependiendo la base de datos, CosmoDB fue el motor de base de datos que perdió más rendimiento comparándolo con su rendimiento en caliente, mientras que Couchbase fue el que menos rendimiento perdió. Couchbase necesito el uso de indexes personalizados para poder tener tiempos competitivos. 
+
+En ocasiones esporádicas una consulta con más registros fue más rápida que una con menos registros, en consultas en frio este comportamiento se da por la inestabilidad de este tipo de consulta, es el caso de CosmoDB y Couchbase, sin embargo, en consultas en caliente solo MongoDB mostro ese comportamiento, esto es debido a la dificultad de la consulta.
+
+El resultado que se intentó conseguir era encontrar cual motor de base de datos NoSQL era el más rápido en cada una de las condiciones, MongoDB fue el motor de base de datos con mejor rendimiento, además de encontrar fortalezas y debilidades de estos motores de base de datos comparándolos entre sí, Couchbase tiene más potencial del mostrado en esta investigación, sin embargo es complicado encontrar esa optimización que se desea, CosmoDB Cuenta con el respaldo de Azure-Microsoft por lo que es una fuerte opción si se está familiarizado con alguna tecnología de Microsoft. MongoDB es muy versátil y una de las mejores opciones del mercado.
+
+

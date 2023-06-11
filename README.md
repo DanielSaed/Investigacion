@@ -24,6 +24,8 @@ Las pruebas se hicieron mediante la interfaz de cada base de datos.
 
 ## Metodologia
 
+![alt sss](https://github.com/DanielSaed/Investigacion/blob/main/img-github/diagrama.png)
+
 Se optó por solamente utilizar consultas de lectura en las pruebas, Se repitió 3 veces la misma consulta y se tomó el promedio, se utilizaron 8 cantidades de resultados diferentes para las mediciones. El flujo de trabajo que se utilizó para los conjuntos de datos “Películas” y “Ruta Aviones” fue el siguiente:
 
 1.	1,000 resultados

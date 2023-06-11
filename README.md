@@ -66,6 +66,8 @@ Mientras que para el conjunto de datos **Denue** se utilizaron solamente 6 canti
 - 200,000 resultados
 - 300,000 resultados
 
+<br>
+
 **La prueba se realizó de manera local, se utilizaron 2 métodos para hacer las pruebas de las bases de datos:**
 
 *Test en caliente:*

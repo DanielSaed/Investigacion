@@ -59,8 +59,8 @@ La prueba se realizó de manera local, se utilizaron 2 métodos para hacer las p
 
 ### Resultados Dataset Peliculas 
 <p float="left"  align="middle">
-  <img src="https://github.com/DanielSaed/Investigacion/blob/main/img-github/pelicula.png" width="100" />
-  <img src="https://github.com/DanielSaed/Investigacion/blob/main/img-github/PeliculasFrio.png" width="100" /> 
+  <img src="https://github.com/DanielSaed/Investigacion/blob/main/img-github/pelicula.png" width="500" />
+  <img src="https://github.com/DanielSaed/Investigacion/blob/main/img-github/PeliculasFrio.png" width="500" /> 
   
 </p>
 ![alt sss](https://github.com/DanielSaed/Investigacion/blob/main/img-github/pelicula.png)

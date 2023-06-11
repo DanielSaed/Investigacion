@@ -47,12 +47,19 @@ Las pruebas se hicieron mediante la interfaz de cada base de datos.
 Se optó por solamente utilizar consultas de lectura en las pruebas, Se repitió 3 veces la misma consulta y se tomó el promedio, se utilizaron 8 cantidades de resultados diferentes para las mediciones. El flujo de trabajo que se utilizó para los conjuntos de datos “Películas” y “Ruta Aviones” fue el siguiente:
 
 1	1,000 resultados
+
 2	10,000 resultados
+
 3	50,000 resultados
+
 4	100,000 resultados
+
 5	200,000 resultados
+
 6	400,000 resultados
+
 7	600,000 resultados
+
 8	800,000 resultados
 
 Mientras que para el conjunto de datos “Denue” se utilizaron solamente 6 cantidades diferentes de resultados para las mediciones, esto debido a la cantidad de documentos de este conjunto, ya que es de menor tamaño a los 2 anteriores. El flujo de trabajo fue el siguiente:

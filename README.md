@@ -26,6 +26,7 @@ Las pruebas se hicieron mediante la interfaz de cada base de datos.
 
 ![alt sss](https://github.com/DanielSaed/Investigacion/blob/main/img-github/diagrama.png)
 
+![alt sss](https://github.com/DanielSaed/Investigacion/blob/main/img-github/tabla.png)
 Se optó por solamente utilizar consultas de lectura en las pruebas, Se repitió 3 veces la misma consulta y se tomó el promedio, se utilizaron 8 cantidades de resultados diferentes para las mediciones. El flujo de trabajo que se utilizó para los conjuntos de datos “Películas” y “Ruta Aviones” fue el siguiente:
 
 1.	1,000 resultados
@@ -55,6 +56,21 @@ La prueba se realizó de manera local, se utilizaron 2 métodos para hacer las p
 - Las consultas se realizaron apagando el ordenador cada vez que se realizaba una consulta.
 
 ## Resultados
+
+### Resultados Dataset Peliculas 
+![alt sss](https://github.com/DanielSaed/Investigacion/blob/main/img-github/pelicula.png)
+
+![alt sss](https://github.com/DanielSaed/Investigacion/blob/main/img-github/PeliculasFrio.png)
+
+### Resultados Dataset Ruta Aviones 
+![alt sss](https://github.com/DanielSaed/Investigacion/blob/main/img-github/Aviones.png)
+
+![alt sss](https://github.com/DanielSaed/Investigacion/blob/main/img-github/AvionesFrio.png)
+
+### Resultados Dataset Denue 
+![alt sss](https://github.com/DanielSaed/Investigacion/blob/main/img-github/Denue.png)
+
+![alt sss](https://github.com/DanielSaed/Investigacion/blob/main/img-github/DenueFrio.png)
 
 ## Conclusion
 

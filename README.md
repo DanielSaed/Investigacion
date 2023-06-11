@@ -8,7 +8,7 @@ Desarrollar y utilizar las nuevas aplicaciones de la actualidad ha creado nuevas
 - Couchbase
 - Azure CosmoDB
 
-* Todas la bases de datos anteriores utilizan el patron de arquitectura de datos por documentos.
+*Todas la bases de datos anteriores utilizan el patron de arquitectura de datos por documentos.
 
 Las pruebas se hicieron mediante la interfaz de cada base de datos.
 
@@ -46,10 +46,10 @@ Mientras que para el conjunto de datos “Denue” se utilizaron solamente 6 can
 
 La prueba se realizó de manera local, se utilizaron 2 métodos para hacer las pruebas de las bases de datos:
 
-** Test en caliente
+**Test en caliente
 - Las consultas se realizaron de manera consecutiva.
 - 
-** Test en frío: 
+**Test en frío: 
 - Las consultas se realizaron apagando el ordenador cada vez que se realizaba una consulta.
 
 ## Resultados

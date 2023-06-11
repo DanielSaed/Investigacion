@@ -26,7 +26,7 @@ Las pruebas se hicieron mediante la interfaz de cada base de datos.
 
  <table align="middle">
   <tr align="middle">
-    <td><img src="https://github.com/DanielSaed/Investigacion/blob/main/img-github/tabla.png" width=800 height=480 align="middle"></td>
+    <td><img src="https://github.com/DanielSaed/Investigacion/blob/main/img-github/tabla.png" width=600 height=300 align="middle"></td>
   </tr>
  </table>
  
